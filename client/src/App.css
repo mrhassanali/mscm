@@ -1,0 +1,200 @@
+
+input[type="checkbox"] {
+  width: 30px;
+  cursor: pointer;
+  height: 25px;
+}
+
+
+.result-table{
+  width:85%;
+  margin:4rem auto;
+}
+.result-table-td {
+  text-align: left;
+  width:min-content;
+}
+
+
+textarea{
+  height: 300px!important;
+  position: relative; 
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    color: #707070;
+    margin-top: 0.9;
+    border: 1px solid #ddd;
+    border-radius: 0.6;
+    padding: 0 1.5rem;
+    line-height: 40px;
+
+}
+
+
+
+
+
+
+
+
+.Toastify__toast-body {
+  font-size: 2.3rem;
+}
+
+label {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.background-red {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* border: 0.1rem solid transparent; */
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+  color: #fff;
+  /* background-color: #007bff; */
+  background-color: #0056d2;
+  border-color: #007bff;
+  outline: none;
+  /* border: 1px solid black; */
+  border: none;
+  margin: 0.1rem;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  border: none;
+  outline: none;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border: none;
+}
+
+
+.orderButton{
+  position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50px;
+    text-align: center;
+
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 0.8rem;
+  border-width: 0;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1),0 0.3rem 0.6rem rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.8rem;
+  height: 5.2rem;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+  
+.orderButton:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .85;
+}
+
+.orderButton:active {
+  outline: 0;
+}
+
+.orderButton:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 420px) {
+  .orderButton {
+    height: 4.8rem;
+  }
+}
+/* media queries  */
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}

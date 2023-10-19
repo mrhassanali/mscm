@@ -1,0 +1,123 @@
+
+.form-container {
+    position: relative;
+    max-width: 90rem;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 1.7rem auto;
+}
+
+.form-container h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.form-container form {
+    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-container form label {
+    font-size: 2.3rem;
+    margin-right: 0.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.form-container form label::after{
+    content:":"
+}
+.column {
+    column-width: 30rem;
+}
+
+.form-container form .input-box {
+    margin: 0.7rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select {
+    position: relative;
+    height: 5rem;
+    width: 100%;
+    outline: none;
+    font-size: 2rem;
+    color: #707070;
+    margin-top: 0.8;
+    border: 1px solid #ddd;
+    border-radius: 0.6;
+    padding: 0 1.5rem;
+}
+
+.form-container form button {
+    width: 100%;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: rgb(130, 106, 251);
+    color: white;
+    border: none;
+}
+
+.form-container form button:hover {
+    background-color: #5838fa;
+    color: white;
+    border: none;
+}
+
+
+/*Table Design*/
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    /* min-width: calc(100%-6rem); */
+    width:95%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.15);
+    margin:2.5rem auto;
+    font-size: 2rem;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 1.2rem 1.5rem;
+}
+
+.content-table tbody tr {
+    border-bottom: 0.1 solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.status-btn{
+    background-color: yellow;
+    color:black;
+    padding:0.5rem;
+    cursor: pointer;
+    border: none;
+}
